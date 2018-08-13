@@ -12,7 +12,6 @@ import 'common/stylus/index.styl'
 // import vConsole from 'vconsole'
 
 fastclick.attach(document.body)
-
 Vue.use(VueLazyload, {
   loading: require('common/image/default.png')
 })
